@@ -51,3 +51,28 @@
 .my-float {
     margin-top: 16px;
 }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: visible;
+  width: 120px;
+  background-color: #00e600;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 3px 0;
+  position: absolute;
+  left: 1168px;
+  top: 574px;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  background-color: #004d00;
+  visibility: visible;
+}
